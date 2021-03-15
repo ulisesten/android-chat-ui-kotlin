@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/chat_background"
     tools:context="com.example.messaging_ui.MainActivity">
+
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/contacting_seller_toolbar"
@@ -20,6 +21,7 @@
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="@string/app_name"
         app:titleTextColor="#fff" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/message_recycler_view"

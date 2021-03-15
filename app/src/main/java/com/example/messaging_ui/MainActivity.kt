@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
             text_message_input.text.clear()
 
             adapter!!.notifyDataSetChanged()
+            message_recycler_view.scrollToPosition(messages.count() - 1)
 
         }
     }
