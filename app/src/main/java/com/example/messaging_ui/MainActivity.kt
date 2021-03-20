@@ -25,6 +25,15 @@ class MainActivity : AppCompatActivity() {
         message_recycler_view.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false )
         message_recycler_view.adapter = adapter
 
+        messages.add(Message(   "test_id"
+                , "receiver_id"
+                , "sender_name"
+                , "receiver_name"
+                ,  "Automatic message"
+                , "product_id"
+                , "2020-03-25T22:36:34.310Z"
+                , "from_device_daf87as9f4"))
+
 
         send_message_button.setOnClickListener {
             val message = text_message_input.text.toString()
@@ -49,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                                  , "receiver_name"
                                  ,  message
                                  , "product_id"
-                                 , "'2012-11-04T14:51:06.157Z'"
+                                 , "2020-03-25T22:36:34.310Z"
                                  , "from_device_daf87as9f4"))
 
 

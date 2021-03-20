@@ -2,17 +2,25 @@
 <resources>
 
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/gray1</item>
+        <item name="colorAccent">@color/gray1</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:actionBarStyle">@style/BarStyle</item>
         <item name="toolbarStyle">@style/BarStyle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
     </style>
 
     <style name="BarStyle">
-        <item name="android:background">@color/colorAccent</item>
+        <item name="android:background">@color/gray1</item>
+        <item name="titleTextStyle">@style/titleStyle</item>
         <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="background">@color/gray1</item>
+
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>

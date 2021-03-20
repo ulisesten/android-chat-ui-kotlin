@@ -72,11 +72,6 @@ class Adapter (private val userId:String, private val elements: MutableList<Mess
 
             val mContext = holder.itemView.context
 
-            //https://res.cloudinary.com/djlzeapiz/image/upload/v1576169609/xqV0FWz7elPsZP3sG0otw.jpg
-            //https://res.cloudinary.com/djlzeapiz/image/upload/v1576169609/xqV0FWz7elPsZP3sG0otw.jpg
-            //Glide.with(mContext).load("https://res.cloudinary.com/djlzeapiz/image/upload/q_10/v1573315852/" + elementos[pos].fromId)
-            //    .apply(RequestOptions.circleCropTransform()).into(imgView)
-
             holder.itemView.setOnClickListener {
 
                 Toast.makeText(mContext, "To Implement", Toast.LENGTH_SHORT).show()
